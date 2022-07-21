@@ -1,0 +1,17 @@
+void setup()
+{
+  pinMode(3, OUTPUT);
+}
+
+void loop()
+{
+  
+  
+  
+  analogWrite(3, 100);
+  delay(3000); 
+  
+  
+  analogWrite(3, 0);
+  delay(3000); 
+}
